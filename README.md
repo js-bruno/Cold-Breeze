@@ -1,2 +1,5 @@
-# Cold-Breeze
-My linux desktop configuration
+# Zeh’s dotfiles
+My personal linux desktop configuration
+
+## Desktop
+![Desktop Print](desktop_image.png)
