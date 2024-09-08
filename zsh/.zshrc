@@ -101,6 +101,7 @@ source /home/jose/.gvm/scripts/gvm
 alias vim="nvim"
 alias v="nvim"
 alias nvimconfig="cd .config/nvim && nvim ."
+alias goworkspace="cd go/1.22.1/src/github.com/js-bruno/"
 
 #-----------------------------------------------------------EXPORTS-----------------------------------------------------------
 # lunar vim 
@@ -120,9 +121,23 @@ export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
+#GOEnv command
+export GOENV_ROOT="$HOME/.goenv"
+export PATH="$GOENV_ROOT/bin:$PATH"
+eval "$(goenv init -)"
+export PATH="$GOROOT/bin:$PATH"
+export PATH="$PATH:$GOPATH/bin"
+
+#tmuxifier
+export PATH="$HOME/.tmuxifier/bin:$PATH"
+eval "eval $(tmuxifier init -)"
+
+
+
+export EDITOR="/usr/bin/nvim"
+export PKG_CONFIG_PATH=/SOFT/libmaus2/lib/pkgconfig
 
 # STARTUP NEOFETCH
 neofetch --ascii communist
 #
 
-[[ -s "/home/jose/.gvm/scripts/gvm" ]] && source "/home/jose/.gvm/scripts/gvm"
