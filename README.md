@@ -46,4 +46,4 @@ place where I store and organize my unix-shell configurations
 ## 📺 Desktop Sample
 ![Desktop Print](desktop_image.png)
 
-<img align="center" src="./sweet-gifs/vine26.gif" />
+<img src="https://pixelsafari.neocities.org/dividers/vine9.gif" />
