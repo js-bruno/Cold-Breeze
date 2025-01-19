@@ -75,6 +75,8 @@ source /home/jose/.gvm/scripts/gvm
 #-----------------------------------------------------------ALIAS-------------------------------------------------------------
 alias vim="nvim"
 alias v="nvim"
+alias a="nvim"
+alias c="clear"
 alias nvimconfig="cd .config/nvim && nvim ."
 alias goworkspace="cd go/1.22.1/src/github.com/js-bruno/"
 alias cd="z"

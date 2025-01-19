@@ -47,3 +47,10 @@ place where I store and organize my unix-shell configurations
 ![Desktop Print](desktop_image.png)
 
 <img src="https://pixelsafari.neocities.org/dividers/vine9.gif" />
+
+## 📺 I3 Install
+[i3 download link](https://i3wm.org/docs/repositories.html)
+[picom download link](https://github.com/yshui/picom)
+[rofi](https://github.com/davatorium/rofi/blob/next/INSTALL.md)
+[polybar](https://github.com/polybar/polybar)
+
