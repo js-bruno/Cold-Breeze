@@ -20,3 +20,6 @@ italic.family = "JetBrainsMono Nerd Font"
 bold_italic.family = "JetBrainsMono Nerd Font"
 
 size = 15.0
+
+[env]
+TERM="xterm-256color"

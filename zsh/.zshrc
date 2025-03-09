@@ -81,6 +81,9 @@ alias nvimconfig="cd .config/nvim && nvim ."
 alias goworkspace="cd go/1.22.1/src/github.com/js-bruno/"
 alias cd="z"
 
+fucntion killport(){
+  kill -9 $(lsof -t -i:$1)
+}
 #-----------------------------------------------------------EXPORTS-----------------------------------------------------------
 # lunar vim
 export PATH=/home/jose/.local/bin:$PATH
