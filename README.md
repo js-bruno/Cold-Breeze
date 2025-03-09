@@ -53,4 +53,5 @@ place where I store and organize my unix-shell configurations
 [picom download link](https://github.com/yshui/picom)
 [rofi](https://github.com/davatorium/rofi/blob/next/INSTALL.md)
 [polybar](https://github.com/polybar/polybar)
+[curl](https://github.com/curl/curl)
 
