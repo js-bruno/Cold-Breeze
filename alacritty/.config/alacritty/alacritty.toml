@@ -1,23 +1,23 @@
-import = [
+general.import = [
     "~/.config/alacritty/current-theme.toml"
 ]
-
 [window]
 
 # opacity = 0.9
-
+blur = true 
+title = "пегадинья"
+dynamic_title = false
 padding.x = 5
-padding.y = 5
-
-decorations = "Full"
-decorations_theme_variant = "Light" # "Dark"
+padding.y = 25
+decorations = "Transparent"
+decorations_theme_variant = "Dark" # "Dark"
 
 [font]
 
-normal.family = "JetBrainsMono Nerd Font"
-bold.family = "JetBrainsMono Nerd Font"
-italic.family = "JetBrainsMono Nerd Font"
-bold_italic.family = "JetBrainsMono Nerd Font"
+normal.family = "IosevkaTerm NF"
+bold.family = "IosevkaTerm NF"
+italic.family = "IosevkaTerm NF"
+bold_italic.family = "IosevkaTerm NF"
 
 size = 15.0
 
