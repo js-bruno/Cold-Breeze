@@ -1,4 +1,5 @@
 export ZSH="$HOME/.oh-my-zsh"
+export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
 
 ZSH_THEME="nicoulaj"
 eval "$(zoxide init zsh)"
@@ -74,8 +75,6 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 
 #-----------------------------------------------------------ALIAS-------------------------------------------------------------
-alias nvim="/opt/nvim/nvim/bin/nvim"
-alias vim="nvim"
 alias v="nvim"
 alias a="nvim"
 alias c="clear"
@@ -135,4 +134,4 @@ if [ -f '/Users/jose.nascimento/Downloads/google-cloud-sdk/path.zsh.inc' ]; then
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/jose.nascimento/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/jose.nascimento/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
 
-. "$HOME/.local/bin/env"
+export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
