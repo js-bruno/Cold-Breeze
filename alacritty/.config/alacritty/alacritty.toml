@@ -14,10 +14,10 @@ decorations_theme_variant = "Dark" # "Dark"
 
 [font]
 
-normal.family = "IosevkaTerm NF"
-bold.family = "IosevkaTerm NF"
-italic.family = "IosevkaTerm NF"
-bold_italic.family = "IosevkaTerm NF"
+normal.family = "ComicShannsMonoNerdFont"
+bold.family = "ComicShannsMonoNerdFont"
+italic.family = "ComicShannsMonoNerdFont"
+bold_italic.family = "ComicShannsMonoNerdFont"
 
 size = 15.0
 

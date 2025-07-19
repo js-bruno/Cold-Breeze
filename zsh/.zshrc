@@ -93,17 +93,6 @@ export PATH=/home/jose/.local/bin:$PATH
 #golang workspace path
 export GOPATH=$HOME/go
 
-#NVM command
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-
-#PYENV command
-export PYENV_ROOT="$HOME/.pyenv"
-[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
-# eval "$(pyenv init -)"
-
 #GOEnv command
 export GOENV_ROOT="$HOME/.goenv"
 export PATH="$GOENV_ROOT/bin:$PATH"
@@ -118,15 +107,12 @@ export PATH="$HOME/.tmuxifier/bin:$PATH"
 #zoxide command
 
 export EDITOR="/usr/bin/nvim"
+export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
 export PKG_CONFIG_PATH=/SOFT/libmaus2/lib/pkgconfig
-export PATH=/usr/local/bin:$PATH
 
 
 # STARTUP NEOFETCH
 # neofetch --ascii communist
-#
-
-export PATH=/usr/local/bin:/Users/jose.nascimento/.tmuxifier/bin:/bin:/Users/jose.nascimento/.goenv/bin:/home/jose/.local/bin:/usr/local/bin:/Users/jose.nascimento/.tmuxifier/bin:/bin:/Users/jose.nascimento/.goenv/bin:/home/jose/.local/bin:/usr/local/bin:/Users/jose.nascimento/.tmuxifier/bin:/bin:/Users/jose.nascimento/.goenv/bin:/home/jose/.local/bin:/usr/local/bin:/Users/jose.nascimento/.tmuxifier/bin:/bin:/Users/jose.nascimento/.goenv/bin:/home/jose/.local/bin:/usr/local/bin:/Users/jose.nascimento/.tmuxifier/bin:/bin:/Users/jose.nascimento/.goenv/bin:/home/jose/.local/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Applications/kitty.app/Contents/MacOS:/Users/jose.nascimento/go/bin:/opt/nvim/:/Users/jose.nascimento/nvim-app/bin/nvim:/opt/nvim/:/opt/nvim/:/Users/jose.nascimento/go/bin:/Users/jose.nascimento/go/bin:/Users/jose.nascimento/go/bin:/Users/jose.nascimento/go/bin:/opt/homebrew/bin:/opt/homebrew/bin
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/jose.nascimento/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/jose.nascimento/Downloads/google-cloud-sdk/path.zsh.inc'; fi
@@ -134,4 +120,5 @@ if [ -f '/Users/jose.nascimento/Downloads/google-cloud-sdk/path.zsh.inc' ]; then
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/jose.nascimento/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/jose.nascimento/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
 
-export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
+export PATH=/usr/local/bin:$PATH
+
