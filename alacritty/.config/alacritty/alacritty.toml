@@ -4,12 +4,12 @@ general.import = [
 [window]
 
 # opacity = 0.9
-blur = true 
-title = "пегадинья"
+blur = true
+title = "Кто я? Что я"
 dynamic_title = false
 padding.x = 5
 padding.y = 25
-decorations = "Transparent"
+decorations = "Full"
 decorations_theme_variant = "Dark" # "Dark"
 
 [font]
@@ -20,6 +20,5 @@ italic.family = "ComicShannsMonoNerdFont"
 bold_italic.family = "ComicShannsMonoNerdFont"
 
 size = 15.0
-
 [env]
 TERM="xterm-256color"
