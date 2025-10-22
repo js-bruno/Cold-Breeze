@@ -4,28 +4,16 @@ local config = wezterm.config_builder()
 
 config.font = wezterm.font 'DaddyTimeMono Nerd Font'
 
--- config.initial_cols = ""
--- config.initial_rows = ""
-
-config.font_size = 10
+config.initial_cols = 100
+config.initial_rows = 10
+config.font_size = 14
 config.enable_tab_bar = false
-config.window_decorations = "RESIZE"
-config.window_background_image = "/users/jose.nascimento/Pictures/Terminal_Wallpaper/liminal-space.png"
-config.window_background_image_hsb = {
-  -- Darken the background image by reducing it to 1/3rd
-  brightness = 0.3,
+config.window_decorations = "TITLE"
+config.window_background_opacity = 0.3
 
-  -- You can adjust the hue by scaling its value.
-  -- a multiplier of 1.0 leaves the value unchanged.
-  hue = 1.0,
-
-  -- You can adjust the saturation also.
-  saturation = 1.0,
+config.window_content_alignment = {
+  horizontal = 'Center',
+  vertical = 'Center',
 }
--- config.window_content_alignment = {
---   horizontal = 'Center',
---   vertical = 'Center',
--- }
 
--- Finally, return the configuration to wezterm:
 return config
