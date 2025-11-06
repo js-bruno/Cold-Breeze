@@ -1,4 +1,4 @@
-echo '\033[31m"Die Proletarier haben nichts zu verlieren als ihre Ketten.                                                             nixos/git/main !
+echo '\033[31m"Die Proletarier haben nichts zu verlieren als ihre Ketten.
 Sie haben eine Welt zu gewinnen.
 Proletarier aller Länder, vereinigt Euch!"
         -Karl Marx

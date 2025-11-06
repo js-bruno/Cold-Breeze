@@ -20,8 +20,11 @@ alias c="clear"
 alias cd="z"
 alias nvimconfig="cd .config/nvim && nvim ."
 alias goworkspace="cd go/1.22.1/src/github.com/js-bruno/"
+alias branchs="git branch --sort=-committerdate -al"
 alias pt="neofetch --ascii communist"
 alias en="sudo nvim /etc/nixos/configuration.nix"
+alias marx="~/marx.sh"
+
 
 function killport(){
   kill -9 $(lsof -t -i:$1)
