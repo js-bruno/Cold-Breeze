@@ -15,7 +15,7 @@ export ARCHFLAGS="-arch x86_64"
 
 #-----------------------------------------------------------ALIAS-------------------------------------------------------------
 alias v="nvim"
-alias a="nvim"
+alias cv="nvim"
 alias c="clear"
 alias cd="z"
 alias nvimconfig="cd .config/nvim && nvim ."
@@ -24,13 +24,15 @@ alias branchs="git branch --sort=-committerdate -al"
 alias pt="neofetch --ascii communist"
 alias en="sudo nvim /etc/nixos/configuration.nix"
 alias marx="~/marx.sh"
+alias ze="nvim ~/.zshrc"
+
 
 
 function killport(){
   kill -9 $(lsof -t -i:$1)
 }
 
-function killvim(){
+function kv(){
   ps axuw | grep nvim | grep -v grep | awk '{print $2}' | xargs kill -9
   echo "all nvim instances are destroyed"
 }
