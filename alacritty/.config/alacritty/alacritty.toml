@@ -15,10 +15,10 @@ dimensions = {columns =  150, lines = 50}
 
 [font]
 
-normal.family = "ComicShannsMono Nerd Font"
-bold.family = "ComicShannsMono Nerd Font"
-italic.family = "ComicShannsMono Nerd Font" 
-bold_italic.family = "ComicShannsMono Nerd Font"
+normal.family = "Agave Nerd Font"
+bold.family = "Agave Nerd Font"
+italic.family = "Agave Nerd Font" 
+bold_italic.family = "Agave Nerd Font"
 
 size = 15.0
 [env]
