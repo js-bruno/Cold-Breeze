@@ -1,16 +1,21 @@
 # vim:fileencoding=utf-8:foldmethod=marker
 include ./theme.conf
 
-#: Fonts {{{
+IosevkaTerm NF
+IosevkaTerm NF Bold
+IosevkaTerm NF Italic
+IosevkaTerm NF Bold Oblique
 
-#: kitty has very powerful font management. You can configure
-#: individual font faces and even specify special fonts for particular
-#: characters.
-
-font_family      Mononoki Nerd Font Regular
-bold_font        Mononoki Nerd Font Bold
-italic_font      Mononoki Nerd Font Italic
-bold_italic_font Mononoki Nerd Font Bold Italic
+    # CaskaydiaCove NF Regular ()
+# font_family      ComicShannsMonoNF-Regular
+# bold_font        ComicShannsMonoNF-Bold
+# italic_font      MononokiNF-Italic
+# bold_italic_font MononokiNF-BoldItalic
+# font_family      IosevkaTerm NF
+# bold_font        IosevkaTerm NF Bold
+# italic_font      IosevkaTerm NF Italic
+# bold_italic_font IosevkaTerm NF Bold Oblique
+modify_font cell_height +10px
 
 #: You can specify different fonts for the bold/italic/bold-italic
 #: variants. To get a full list of supported fonts use the `kitty
@@ -167,7 +172,6 @@ font_size 15.0
 #: font glyph is rendered and the baseline at which the glyph is
 #: placed in the cell. For example::
 
-#:     modify_font cell_width 80%
 #:     modify_font cell_height -2px
 #:     modify_font baseline 3
 
@@ -828,7 +832,7 @@ window_border_width 2.5pt
 #: set the vertical and horizontal sides. Three values set top,
 #: horizontal and bottom. Four values set top, right, bottom and left.
 
-# window_padding_width 0
+window_padding_width 4
 
 #: The window padding (in pts) (blank area between the text and the
 #: window border). A single value sets all four sides. Two values set
@@ -2452,3 +2456,17 @@ linux_display_server x11
 #: }}}
 
 #: }}}
+
+
+# BEGIN_KITTY_THEME
+# dark+
+include current-theme.conf
+# END_KITTY_THEME
+
+
+# BEGIN_KITTY_FONTS
+font_family      family="BigBlueTermPlus Nerd Font"
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+# END_KITTY_FONTS
