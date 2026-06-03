@@ -33,21 +33,19 @@
 
 ![Desktop Print](desktop_image.png)
 
-## details
+<!-- ## details -->
+<!--   -->
+<!-- > **OS:** &nbsp;   -->
+<!-- > **WM / DE:** &nbsp;   -->
+<!-- > **Shell:** &nbsp;   -->
+<!-- > **Terminal:** &nbsp;   -->
+<!-- > **Editor:** &nbsp;   -->
+<!-- > **Bar:** &nbsp;   -->
+<!-- > **Launcher:** &nbsp;   -->
+<!-- > **Font:** &nbsp;   -->
+<!-- > **Theme:** &nbsp;   -->
+<!-- > **Icons:** &nbsp; -->
  
-> **OS:** &nbsp;  
-> **WM / DE:** &nbsp;  
-> **Shell:** &nbsp;  
-> **Terminal:** &nbsp;  
-> **Editor:** &nbsp;  
-> **Bar:** &nbsp;  
-> **Launcher:** &nbsp;  
-> **Font:** &nbsp;  
-> **Theme:** &nbsp;  
-> **Icons:** &nbsp;
- 
-<img src="https://pixelsafari.neocities.org/dividers/vine9.gif" />
-
 ## Stow structure
 
 Each top-level directory is a **stow package**. Its contents mirror your `$HOME`, so stow knows exactly where to symlink everything.
@@ -68,8 +66,6 @@ Each top-level directory is a **stow package**. Its contents mirror your `$HOME`
 ```
  
  
-<img src="https://pixelsafari.neocities.org/dividers/vine9.gif" />
-
 Install stow:
  
 ```bash
@@ -83,7 +79,6 @@ nix shell -p stow
 brew install stow
 ```
  
-<img src="https://pixelsafari.neocities.org/dividers/vine9.gif" />
 
 ## setup with stow
  
