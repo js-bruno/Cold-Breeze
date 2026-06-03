@@ -15,7 +15,10 @@ export ARCHFLAGS="-arch x86_64"
 
 #-----------------------------------------------------------ALIAS-------------------------------------------------------------
 alias v="nvim"
-alias cv="nvim"
+alias lss="du -sh */ | sort -rh"
+alias nvim="nvim"
+alias cv="nvim-0_12"
+alias clearvim="nvim-0_12"
 alias c="clear"
 alias cd="z"
 alias nvimconfig="cd .config/nvim && nvim ."
@@ -25,8 +28,14 @@ alias pt="neofetch --ascii communist"
 alias en="sudo nvim /etc/nixos/configuration.nix"
 alias marx="~/marx.sh"
 alias ze="nvim ~/.zshrc"
+alias lol="ssh lacon@191.252.38.145"
+alias loltmux='ssh -t lacon@191.252.38.145 "tmux new-session -A -s main"'
 
-
+alias dkc-up="docker-compose up -d"
+alias dkc="docker-compose up -d"
+alias daemon="docker-compose up -d"
+alias services='docker compose ps --format "table {{.Name}}\t{{.Status}}"'
+alias ports='docker ps --format "table {{.Names}}\t{{.Ports}}"'
 
 function killport(){
   kill -9 $(lsof -t -i:$1)

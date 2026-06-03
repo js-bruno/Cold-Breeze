@@ -11,15 +11,14 @@ padding.x = 5
 padding.y = 25
 decorations = "Full"
 decorations_theme_variant = "Dark" # "Dark"
-dimensions = {columns =  150, lines = 50}
+dimensions = {columns =  70, lines = 20}
 
 [font]
-
 normal.family = "Agave Nerd Font"
 bold.family = "Agave Nerd Font"
 italic.family = "Agave Nerd Font" 
 bold_italic.family = "Agave Nerd Font"
+size = 25.0
 
-size = 15.0
 [env]
 TERM="xterm-256color"
