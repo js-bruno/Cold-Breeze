@@ -48,7 +48,6 @@ function kv(){
 #-----------------------------------------------------------EXPORTS-----------------------------------------------------------
 export GOPATH=$HOME/go
 
-<<<<<<< HEAD
 #GOEnv command
 # export GOENV_ROOT="$HOME/.goenv"
 # export PATH="$GOENV_ROOT/bin:$PATH"
@@ -61,8 +60,6 @@ export GOPATH=$HOME/go
 # eval "eval $(tmuxifier init -)"
 
 
-=======
->>>>>>> eb9aa5f (feature: adding wezterm with background style)
 export EDITOR="/usr/bin/nvim"
 export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
 export PKG_CONFIG_PATH=/SOFT/libmaus2/lib/pkgconfig
