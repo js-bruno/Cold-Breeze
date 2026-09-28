@@ -9,9 +9,9 @@ title = "Кто я? Что я"
 dynamic_title = false
 padding.x = 5
 padding.y = 25
-decorations = "Full"
+decorations = "None"
 decorations_theme_variant = "Dark" # "Dark"
-dimensions = {columns =  70, lines = 20}
+dimensions = {columns =  75, lines = 30}
 
 [font]
 normal.family = "Agave Nerd Font"

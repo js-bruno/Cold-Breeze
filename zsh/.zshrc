@@ -29,6 +29,8 @@ alias en="sudo nvim /etc/nixos/configuration.nix"
 alias marx="~/marx.sh"
 alias ze="nvim ~/.zshrc"
 alias lol="ssh lacon@191.252.38.145"
+alias wow="ssh -p 2222 gipsydanger@192.168.15.50"
+alias op="opencode"
 alias loltmux='ssh -t lacon@191.252.38.145 "tmux new-session -A -s main"'
 
 alias dkc-up="docker-compose up -d"
@@ -47,6 +49,7 @@ function kv(){
 }
 #-----------------------------------------------------------EXPORTS-----------------------------------------------------------
 export GOPATH=$HOME/go
+export PATH="$PATH:/home/lacon/.cache/npm/global/bin"
 
 #GOEnv command
 # export GOENV_ROOT="$HOME/.goenv"
@@ -78,3 +81,8 @@ if [ -f '/Users/jose.nascimento/Downloads/google-cloud-sdk/path.zsh.inc' ]; then
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/jose.nascimento/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/jose.nascimento/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/home/lacon/.lmstudio/bin"
+# End of LM Studio CLI section
+
