@@ -48,6 +48,9 @@ function kv(){
   echo "all nvim instances are destroyed"
 }
 #-----------------------------------------------------------EXPORTS-----------------------------------------------------------
+ export PROMPT_SUCCESS_COLOR="%F{220}"
+ export PROMPT_FAILURE_COLOR="%F{203}"
+
 export GOPATH=$HOME/go
 export PATH="$PATH:/home/lacon/.cache/npm/global/bin"
 

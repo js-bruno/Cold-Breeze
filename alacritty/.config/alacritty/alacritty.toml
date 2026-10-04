@@ -9,7 +9,7 @@ title = "Кто я? Что я"
 dynamic_title = false
 padding.x = 5
 padding.y = 25
-decorations = "None"
+decorations = "Full"
 decorations_theme_variant = "Dark" # "Dark"
 dimensions = {columns =  75, lines = 30}
 
