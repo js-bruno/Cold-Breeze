@@ -10,7 +10,7 @@ dynamic_title = false
 padding.x = 5
 padding.y = 25
 decorations = "Full"
-decorations_theme_variant = "Dark" # "Dark"
+decorations_theme_variant = "Dark"
 dimensions = {columns =  75, lines = 30}
 
 [font]
